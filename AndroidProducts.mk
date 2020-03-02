@@ -12,9 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8441.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/hentai_lilac_RoW.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_g8441-eng \
-    aosp_g8441-userdebug
-
+    hentai_lilac_RoW-eng \
+    hentai_lilac_RoW-userdebug \
+    hentai_lilac_RoW-user
