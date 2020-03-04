@@ -17,6 +17,8 @@ include device/sony/yoshino/PlatformConfig.mk
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %hentai_lilac_RoW,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := G8441
+else ifneq (,$(filter %hentai_lilac_RoW_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G8441
 else
 TARGET_BOOTLOADER_BOARD_NAME := G8441
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
