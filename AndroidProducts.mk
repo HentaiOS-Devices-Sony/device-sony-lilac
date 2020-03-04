@@ -13,9 +13,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hentai_lilac_RoW.mk
-
+    $(LOCAL_DIR)/hentai_lilac_RoW.mk \
+    $(LOCAL_DIR)/hentai_lilac_RoW_Go.mk \
+    
 COMMON_LUNCH_CHOICES += \
     hentai_lilac_RoW-eng \
     hentai_lilac_RoW-userdebug \
-    hentai_lilac_RoW-user
+    hentai_lilac_RoW-user \
+    hentai_lilac_RoW_Go-eng \
+    hentai_lilac_RoW_Go-userdebug \
+    hentai_lilac_RoW_Go-user \
